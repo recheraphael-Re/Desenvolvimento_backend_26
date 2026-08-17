@@ -17,7 +17,7 @@ public class Main {
         String nome = scanner.nextLine();
 
         //exibe uma mensagem de boas-vindas com o nome do usuário
-        System.out.print("Digite a primeira nota"); // mensagem no terminal pedindo para o usuário digitar a primeira nota
+        System.out.print("Digite a primeira nota: "); // mensagem no terminal pedindo para o usuário digitar a primeira nota
         double nota1 = scanner.nextDouble(); // lê a primeira nota digitada pelo usuário e armazena na variável nota1
         System.out.print("Digite a segunda nota"); // mensagem no terminal pedindo para o usuário digitar a segunda nota
         double nota2 = scanner.nextDouble(); // lê a segunda nota digitada pelo usuário e armazena na variável nota2    
